@@ -1,0 +1,69 @@
+Frontend Todo list
+
+1. Install and set up Nextjs, create project
+2. Code for nav bar
+3. Categories on the front page
+4. List properties on the front page (static)
+5. Detail page for properties (static)
+6. Landlord page (static)
+7. My reservation (static)
+8. My properties (static)
+9. Inbox page (static)
+10.Detail page for chat (static)
+11. User menu popup
+12. Create reusable modal window
+13. Log in modal (remember error codes)
+14. Sign up modal (remember error codes)
+
+Backend Todo list
+
+1. Set up docker, create a a project with Django with PostgreSQL etc.
+   1a. Install DRF, cors headers etc
+2. Create an authentication model. Create user model / configure it.
+3. Create app for properties.
+4. Create model and serializer for properties.
+5. Get properties in the front end and list them
+
+1. Implementation authentication
+	Login
+	Sign up
+	Log out
+2. Add properties from next js
+	Create modal
+	API endpoint
+	Send data
+
+3. Detail page for properties
+4. Book property
+5. Land lord page dynamic
+6. My properties dynamic
+7. My reservation dynamic
+8. Make it possible to set property as favorite.
+9  My favorites page (with listings)
+8. Make conversations dynamic
+
+1. Set up web sockets in the backend
+2. Make it possible to connect
+3. Send/receive messages
+4. Satrt new conversation.
+
+1. Set up search filters
+	. Modal for search filter
+	. Country search
+	. Calendar for check in / check out  dates
+	. Search details (number of guests, bedrooms, etc)
+	. API endpoint
+	. Choose between categories on the front page
+
+
+Deployment
+
+1. Setting up git (github)
+2. Create server on digital ocean and set it up
+3. Backend
+	. Create envoironment
+	. Get code from git
+	. rest of server stuff
+4. Frontend
+	. Node nginx
+	. Get code from git
